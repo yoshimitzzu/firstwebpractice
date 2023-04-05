@@ -1,5 +1,6 @@
-def main():
-    print("Hello, Python!")
-    a = 1 + 1
+import streamlit as st
 
-main()
+st.title('Hi World')
+
+with st.echo():
+    x = 10
